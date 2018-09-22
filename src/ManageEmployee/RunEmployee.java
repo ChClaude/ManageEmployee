@@ -15,8 +15,8 @@ public class RunEmployee {
         e.add(new Employee("Nick", "ORNELY",1989,"3200", "nickornely@gmail.com"));
         e.add(new Employee("Precious", "TCHAMBILA",1994,"2099", "prjeancy@gmail.com"));
         Collections.sort(e);
-        //System.out.println(e);
-        JOptionPane.showMessageDialog(null, e, "Output", JOptionPane.INFORMATION_MESSAGE);
+        System.out.println(e);
+        //JOptionPane.showMessageDialog(null, e, "Output", JOptionPane.INFORMATION_MESSAGE);
 
     }
 
